@@ -1,1 +1,37 @@
 
+echo '{
+  "cases": [
+    {
+      "id": 1,
+      "title": "Vet Case",
+      "code": "VC",
+      "CreatedOn": 215,
+      "createdBy": "Charles Sherrington",
+      "state": "Active"
+    },
+    {
+      "id": 2,
+      "title": "Vaccination",
+      "code": "VA",
+      "CreatedOn": 33,
+      "createdBy": "Luigi Galvani",
+      "state": "Active"
+    },
+    {
+      "id": 3,
+      "title": "Post-procedure",
+      "code": "PP",
+      "CreatedOn": 98,
+      "createdBy": "Wilder Penfield",
+      "state": "Active"
+    },
+    {
+      "id": 4,
+      "title": "Medication",
+      "code": "MD",
+      "CreatedOn": 13,
+      "createdBy": "Ramon y Cajal",
+      "state": "Archived"
+    }
+  ]
+}' > db.json
